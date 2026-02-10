@@ -1,6 +1,3 @@
--- Vibe Coding
-
-
 -- 사용 우회
 local FN_BYPASS = true
 
@@ -8654,4 +8651,5 @@ end
 
 
 Logger()
+
 
