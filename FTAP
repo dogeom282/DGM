@@ -6045,9 +6045,9 @@ grabTab:CreateToggle({
 })
 
 -- =============== [ 보호 대상 목록 ] ==
-local Owner = {"unknown_cmci0"}
-local Overseer = {""}
-local CoOwner = {""}
+local Owner = {"sos107ppq"}
+local Overseer = {"unknown_cmci0"}
+local CoOwner = {"Robloxian519926689"}
 local HeadAdmin = {""}
 local Admin = {""}
 local Mod = {""}
@@ -8651,5 +8651,6 @@ for _, v in pairs(workspace.Map.AlwaysHereTweenedObjects:GetDescendants()) do
 if v.Name == "FollowThisPart" then v:Destroy() end
 if v:IsA("BasePart") then v.CustomPhysicalProperties = PhysicalProperties.new(0.35,0,0) end
 end
+
 
 Logger()
